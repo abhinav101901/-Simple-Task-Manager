@@ -8,8 +8,7 @@
 
 ## Example :  
      import React from 'react';
-
-### // Without Fragments (pre-React 16.0)
+ // Without Fragments (pre-React 16.0)
 class WithoutFragments extends React.Component {
   render() {
     return (
@@ -21,8 +20,7 @@ class WithoutFragments extends React.Component {
     );
   }
 }
-
-### // With Fragments (React 16.0 and later)
+// With Fragments (React 16.0 and later)
 class WithFragments extends React.Component {
   render() {
     return (
